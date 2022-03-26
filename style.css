@@ -1,0 +1,274 @@
+.site {
+    --body-color: linear-gradient(90deg, hsl(152deg 28% 40%) 0%, hsl(33deg 28% 40%) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.site {
+    width: 100%;
+    height: 100%;
+    background: var(--body-color);
+}
+
+.site__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.site__slider {
+    width: 968px;
+    /* border: 2px solid brown; */
+}
+
+.slider__menu {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__mark {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity ease .25s;
+    margin: 0 4px;
+}
+
+.menu__mark:hover {
+    opacity: 1;
+}
+
+.slider {
+    width: 100%;
+    height: 460px;
+}
+
+.slider__block {
+    width: 100%;
+    height: 460px;
+    display: none;
+}
+
+.slider__wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__image {
+    width: 460px;
+    /* height: 460px; */
+}
+
+.slider__image .image {
+    width: 460px;
+}
+
+.slider__info {
+    width: 460px;
+    /* height: 460px; */
+}
+
+.info__title {
+    color: white;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 109%;
+    margin-bottom: 32px;
+}
+
+.info__description {
+    color: white;
+    font-size: 20px;
+    line-height: 109%;
+    margin-bottom: 32px;
+    opacity: .75;
+}
+
+.site__menu{
+    height: 72px;
+    width: 968px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu__logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.menu__logo.img{
+    margin-right: 24px;
+}
+
+.menu__link{
+    margin-left: 24px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu__link:hover{
+
+}
+
+.site__content{
+    width: 968px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.site__category{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.category__content{}
+
+.category__titel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 48px;
+}
+
+.category__block{    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.block_1{   
+    padding: 32px;
+    border-radius: 24px;}
+
+.block_2{
+    padding: 32px;
+    border-radius: 24px;  
+}
+
+.block_3{    
+    padding: 32px;
+    border-radius: 24px;}
+
+.block__img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__info{
+    color: white;
+    font-size: 20px;}
+
+.block__titel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.block__text{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.site__night{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.night__content{}
+
+.night__titel{
+    color: white;
+    font-size: 48px;
+    line-height: 109%;
+    margin-bottom: 32px;
+}
+
+.night__info{
+    width: 460px;
+    height: 350px;
+}
+
+.night__click{}
+
+.nidgt__img{
+    width: 460px;
+}
+.night__text{
+    color: white;
+    font-size: 20px;
+    line-height: 109%;
+    margin-bottom: 32px;
+    text-align: left;
+}
+.click__block{
+    color:red;
+}
+.click__text{
+    color: white;
+    font-size: 20px;
+    background-color: rgb(139, 43, 43);
+    display: inline-block;
+    padding: 16px;
+    border-radius: 5px;
+}
+.site__candy{}
